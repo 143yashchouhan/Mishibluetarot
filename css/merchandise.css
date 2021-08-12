@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'artifact me' ;
+    src: url('../fonts/Artifact.otf');
+}
+@font-face{
+    font-family: 'AnticDidone';
+    src: url('../fonts/AnticDidone-Regular.otf');
+}
+@font-face{
+    font-family: 'gilroy';
+    src: url('../fonts/Gilroy-Light.otf');
+}
+
+/* ---------CUSTOM PROPERTIES--------- */
+:root{
+    /* ---FONT--- */
+    --main-font: 'AnticDidone';
+    --logo-font: 'artifact me';
+    --Para-font: 'gilroy';
+    /* ---COLORS--- */
+    --main-color: black;
+    --text-color: white;
+}
+
+/* ---------Merchandise--------- */
+
+
+.merchandise{
+    background-image: url(../img/Merchandise.png);
+    /* background-color: #ffcaca; */
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 7rem;
+}
+.merchandise h1{
+    font-size: 3rem;
+    font-family: var(--main-font);
+    text-decoration: underline solid black 2px;
+    margin-bottom: 5rem;
+    padding-top: 4rem;
+    text-align: center;
+}   
+.products{
+    max-width: 80%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 350px);
+    text-align: center;
+    grid-row-gap: 5rem;
+    grid-column-gap: 3rem;
+    /* grid-column-gap: 2rem; */
+    justify-content: space-evenly;
+}
+.items{
+    /* background-color: red; */
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.308);
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.items img{
+    width: 350px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0px 0px 10px #00000081;
+}
+.items h3{
+    font-family: var(--main-font);
+    margin-top: -2rem;
+    font-size: 1.3rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.items h3 span{
+    opacity: 0%;
+}
+.priceM{
+    font-family: var(--main-font);
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+.lable{
+    font-family: var(--Para-font);
+    margin-top: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.items button a{
+    text-decoration: none;
+    color: black;
+}
+.items button{
+    /* background-color: red;
+    border: none;
+    font-size: 3rem; */
+    background-color: var(--text-color);
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: .1rem 1rem;
+    transition: .3s;
+    margin-right: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.items button:hover{
+    box-shadow: 0px 0px 30px #00000075;
+}
+.products button a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.back-home{
+    text-align: center;
+    margin-top: 4rem;
+}
+.back-home button{
+    border: none;
+    background-color: white;
+    padding: 0.1rem 2rem;
+    font-family: var(--Para-font);
+    font-size: 1.5rem;
+    margin-right: .4rem;
+    border-radius: 2rem;
+    transition: .3s;
+}
+.back-home button:hover{
+    box-shadow: 0px 0px 30px #00000075;
+}
+.back-home a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+

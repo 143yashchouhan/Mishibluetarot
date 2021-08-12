@@ -1,0 +1,768 @@
+@media screen and (max-width: 1565px) {
+    /* LOGO */
+
+    /* HOME */
+    .right img {
+        width: 580px;
+    }
+
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 3.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .left h1 span {
+        font-size: 5rem;
+        font-family: var(--logo-font);
+        text-shadow: 0px 0px 5px #9aebff;
+        font-weight: 100;
+    }
+
+    .left p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .left button {
+        background-color: var(--text-color);
+        border: none;
+        border-radius: 2rem;
+        text-align: center;
+        font-size: 1.1rem;
+        padding: .1rem 1rem;
+    }
+
+    /* ABOUT */
+    .about-main {
+        max-width: 80%;
+        margin: auto;
+        padding-bottom: 3rem;
+    }
+
+    /* SERVICES */
+    .services-container {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1438px) {
+
+    /* nav */
+    .nav__menu {
+        position: fixed;
+        display: flex;
+        display: inline-block;
+        /* position: relative; */
+        top: 5rem;
+        right: -110%;
+        width: 15%;
+        height: 100%;
+        padding: 2rem;
+        /* background-color: rgba(255, 255, 255, 0); */
+        box-shadow: 0px 0px 30px #00000050;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 20;
+        border-top-left-radius: 2rem;
+
+    }
+
+    .nav__toggle {
+        display: flex;
+        z-index: 20;
+    }
+
+    /* HOME */
+    .right img {
+        width: 530px;
+    }
+
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 3.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .left h1 span {
+        font-size: 4.7rem;
+        font-family: var(--logo-font);
+        text-shadow: 0px 0px 5px #9aebff;
+        font-weight: 100;
+    }
+
+    .left p {
+        font-size: 1.3rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .left button {
+        background-color: var(--text-color);
+        border: none;
+        border-radius: 2rem;
+        text-align: center;
+        font-size: 1rem;
+        padding: .1rem 1rem;
+    }
+}
+
+/*=== Show menu ===*/
+.show {
+    right: 0;
+}
+
+/*Active menu*/
+.active::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0.18rem;
+    left: 0;
+    top: 2rem;
+    background-color: black;
+}
+
+@media screen and (max-width: 1371px) {
+
+    /* SERVICES */
+    .services-container {
+        max-width: 80%;
+        margin: auto;
+        /* border: solid black 2px; */
+    }
+
+    .top3-card {
+        display: flex;
+        text-align: center;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    .card {
+        position: relative;
+        width: 350px;
+        height: 390px;
+        /* margin: 30px; */
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: #fbc5c5;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+        padding-bottom: 2.5rem;
+        text-decoration: underline 2px;
+        opacity: 60%;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .top-p {
+        /* background-color: aqua; */
+        padding-bottom: 1.5rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .middile-p {
+        /* background-color: red; */
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .price {
+        font-family: var(--Para-font);
+        color: black;
+    }
+
+    .bottom2 {
+        gap: 2rem;
+    }
+
+    /* MERCHANDISE */
+    .products{
+        grid-template-columns: repeat(3, 300px);
+    }
+    .items img{
+        width: 300px;
+        position: relative;
+        bottom: 50px;
+    }
+    .items h3{
+        font-size: 1.2rem;
+    }
+    .priceM{
+        font-size: 1.3rem;
+    }
+    .lable{
+        font-size: .9rem;
+    }
+    .items button{
+        font-size: .9rem;
+    }
+    .view-more button{
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width: 1141px) {
+    .header {
+        height: 700px;
+    }
+
+    .home {
+        margin-top: 6rem;
+    }
+
+    /* LOGO */
+    nav img {
+        width: 60px;
+        padding-bottom: .3rem;
+        /* background-color: red; */
+        padding-left: 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+
+    /* HOME */
+    .right img {
+        width: 400px;
+    }
+
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .left h1 span {
+        font-size: 4rem;
+        font-family: var(--logo-font);
+        text-shadow: 0px 0px 5px #9aebff;
+        font-weight: 100;
+    }
+
+    .left p {
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .left button {
+        background-color: var(--text-color);
+        border: none;
+        border-radius: 2rem;
+        text-align: center;
+        font-size: .8rem;
+        padding: .1rem 1rem;
+    }
+
+    /* ABOUT */
+    .about-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .about-left img {
+        width: 280px;
+        border-radius: 3rem;
+    }
+
+    .about-right p {
+        text-align: center;
+        margin-left: auto;
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+    .spacial {
+        color: black;
+        font-size: 1.4rem;
+    }
+
+    /* SERVICES */
+    .top3-card {
+        flex-wrap: wrap;
+        gap: 5rem;
+        width: 65%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .bottom2 {
+        flex-wrap: wrap;
+        margin-top: 5rem;
+        gap: 5rem;
+    }
+
+    .card {
+        position: relative;
+        width: 350px;
+        height: 390px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-radius: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: #fbc5c5;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .card h2 {
+        font-size: 1.8rem;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+        /* MERCHANDISE */
+    .products{
+        grid-template-columns: repeat(2, 350px);
+    }
+    .items img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .right img {
+        width: 400px;
+    }
+
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 2.5rem;
+    }
+
+    .left h1 span {
+        font-size: 4rem;
+    }
+
+    .left p {
+        font-size: 1rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .left button {
+        font-size: .8rem;
+    }
+
+    .about-left img {
+        width: 200px;
+        border-radius: 2rem;
+    }
+
+    .card {
+        width: 310px;
+    }
+
+    .card h2 {
+        font-size: 1.8rem;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    /* HOME */
+    .right img {
+        width: 380px;
+    }
+
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 2.3rem;
+    }
+
+    .left h1 span {
+        font-size: 3.8rem;
+    }
+
+    .left p {
+        font-size: .95rem;
+        margin-bottom: 1.8rem;
+    }
+         /* MERCHANDISE */
+         .products{
+            grid-template-columns: repeat(1, 350px);
+        }
+        .items img{
+            width: 350px;
+        }
+        .items h3{
+            font-size: 1.3rem;
+        }
+    /* CONTACT */
+    /* .contact-section{
+        grid-template-columns: 1fr;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+    .right img {
+        width: 300px;
+    }
+    .home{
+        margin-top: 9rem;
+    }
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 2.1rem;
+    }
+
+    .left h1 span {
+        font-size: 3.5rem;
+    }
+
+    .left p {
+        font-size: .85rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .left button {
+        font-size: .8rem;
+    }
+
+    .about-left img {
+        width: 180px;
+        border-radius: 2rem;
+    }
+
+    /* SOCIAL */
+    .icons li:nth-child(1) a {
+        background-color: #04141b;
+        font-size: 1.5rem;
+        padding: .3rem;
+        transition: .3s;
+    }
+
+    .icons li:nth-child(2) a {
+        background-color: #04141b;
+        font-size: 1.5rem;
+        padding: .3rem;
+        transition: .3s;
+    }
+
+    .icons li:nth-child(3) a {
+        background-color: #04141b;
+        font-size: 1.2rem;
+        padding: .3rem;
+        transition: .3s;
+    }
+    /* CONTACT */
+    .contact-section{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    .title{
+        font-size: 1.8rem;
+    }
+    /* HOME */
+    .right img {
+        width: 250px;
+    }
+    .header {
+        height: 500px;
+    }
+    .home {
+        margin-top: 5rem;
+    }
+    .left h1 {
+        font-family: var(--main-font);
+        font-size: 1.7rem;
+        margin-bottom: .1rem;
+    }
+    .left h1 span {
+        font-size: 3rem;
+    }
+    .left p {
+        font-size: .65rem;
+        margin-bottom: 1rem;
+    }
+    .left button {
+        font-size: .8rem;
+    }
+    /* ABOUT  */
+    .about-title{
+        font-size: 2rem;
+    }
+    .about-left img{
+        width: 180px;
+    }
+    .about-content{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    /* SERVICES  */
+    .services-title{
+        font-size: 2rem;
+    }
+    /* CARD  */
+    .card {
+        min-width: 280px;
+    }
+    .card h2 {
+        font-size: 1.7rem;
+    }
+    .card p {
+        font-size: 12px;
+    }
+    .card button{
+        font-size: 1rem;
+    }
+    .nav__toggle {
+        display: flex;
+        z-index: 20;
+    }
+    .merchandise h1{
+        font-size: 2rem;
+    }
+    .products{
+        grid-template-columns: repeat(1, 320px);
+    }
+    .items img{
+        width: 320px;
+        top: -55px;
+    }
+    /* fotter  */
+
+    .tags p{
+        font-size: 1rem;
+        padding-right: 5px;
+    }
+   .fotter h6{
+        font-size: .9rem;
+    }
+    .fotter h5{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 414px){
+    /* LOGO  */
+    .title{
+        font-size: 1.5rem;
+        padding-bottom: .2rem;
+        margin-left: -.8rem;
+    }
+    nav img{
+        width: 50px;
+        margin-left: -1.5rem;
+    }
+    .nav__toggle{
+        margin-right: 1.5rem;
+    }
+    .nav__menu{
+        width: 30%;
+    }
+    /* HOME  */
+    .header{
+        height: 736px;
+    }
+    .home{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-top: 5.8rem;
+    }
+    .right img {
+        width: 260px;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    .left p {
+        font-size: .8rem;
+        margin-bottom: 1rem;
+    }
+    .left h1 {
+        font-size: 2rem;
+        margin-bottom: .1rem;
+    }
+    .left h1 span {
+        font-size: 3rem;
+    }
+    .left button {
+        font-size: .8rem;
+        margin-right: 1rem;
+    }
+    /* SOCIAL */
+    .icons li:nth-child(1) a {
+        background-color: #04141b;
+        font-size: 1.2rem;
+        padding: .3rem;
+        transition: .3s;
+    }
+
+    .icons li:nth-child(2) a {
+        background-color: #04141b;
+        font-size: 1.2rem;
+        padding: .3rem;
+        transition: .3s;
+    }
+
+    .icons li:nth-child(3) a {
+        background-color: #04141b;
+        font-size: .95rem;
+        padding: .3rem;
+        transition: .3s;
+    }
+    /* ABOUT  */
+    .about-left img {
+        width: 180px;
+        border-radius: 3rem;
+    }
+    .about-title{
+        font-size: 1.8rem;
+    }
+    .about-right p {
+        text-align: center;
+        margin-left: auto;
+        font-size: .7rem;
+        line-height: 1.2rem;
+    }
+    .spacial {
+        color: black;
+        font-size: 1.2rem;
+    }
+    /* SERVICES  */
+    .services-title{
+        font-size: 1.8rem;
+    }
+    /* CARD  */
+    .card {
+        min-width: 260px;
+    }
+    .card h2 {
+        font-size: 1.5rem;
+    }
+    .card p {
+        font-size: 11.5px;
+    }
+    .card button{
+        font-size: 1rem;
+    }
+    .merchandise h1{
+        font-size: 2rem;
+    }
+    .products{
+        grid-template-columns: repeat(1, 300px);
+    }
+    .items img{
+        width: 320px;
+        top: -55px;
+    }
+    /* CONTACT  */
+    .contact-section{
+        width: 200px;
+    }
+    .details h1{
+        font-size: 1.5rem;
+    }
+    .address{
+        font-size: 1rem;
+        padding-top: 2.5rem;
+    }
+    .contact-number{
+        font-size: 1rem;
+        padding-top: 1.2rem;
+    }
+    .social-icon{
+        margin-top: 2rem;
+        margin-right: .2rem;
+    }
+    /* footer  */
+    .tags p{
+        font-size: .75rem;
+    }
+    .fotter h6{
+        font-size: .6rem;
+    }
+    .fotter h5{
+        font-size: .7rem;
+    }
+    
+}
+
+@media  screen and (max-width: 325px) {
+    .tags{
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 280px){
+    /* LOGO  */
+    .title{
+        font-size: 1rem;
+        padding-bottom: .2rem;
+        margin-left: -.8rem;
+    }
+    nav img{
+        width: 40px;
+    }
+    .nav__toggle img{
+        width: 35px;
+        
+    }
+    /* HOME  */
+    .right img {
+        width: 220px;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    /* ABOUT  */
+    .about-left img {
+        width: 110px;
+        border-radius: 1rem;
+    }
+    /* SERVICES  */
+    /* CARD  */
+    .card {
+        min-width: 200px;
+    }
+    .card h2 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 11px;
+    }
+    
+    .merchandise h1{
+        font-size: 1.8rem;
+    }
+    .products{
+        grid-template-columns: repeat(1, 250px);
+    }
+    .items img{
+        width: 320px;
+        top: -55px;
+    }
+    .view-more button{
+        font-size: 1rem;
+
+    }
+}
